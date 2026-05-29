@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1,
+    "type": "multiple_choice",
+    "enunciado": "¿Cuál es la salida del siguiente código?\nprint(2 + 3 * 4)",
+    "puntos": 5,
+    "opciones": [
+      "20",
+      "14",
+      "24",
+      "Error"
+    ],
+    "respuestaCorrecta": null
+  },  {
+    "id": 2,
+    "type": "multiple_choice",
+    "enunciado": "¿Cuál es 33)",
+    "puntos": 5,
+    "opciones": [
+      "1",
+      "2",
+      "3",
+      "33"
+    ],
+    "respuestaCorrecta": null
+  },  {
+    "id": 3,
+    "type": "multiple_choice",
+    "enunciado": "¿Cuál es e",
+    "puntos": 5,
+    "opciones": [
+      "q",
+      "w",
+      "e",
+      "r"
+    ],
+    "respuestaCorrecta": null
+  },  {
+    "id": 4,
+    "type": "multiple_choice",
+    "enunciado": "¿Cuál es 12",
+    "puntos": 5,
+    "opciones": [
+      "12",
+      "12",
+      "1"
+    ],
+    "respuestaCorrecta": null
+  },
+  {
+    "id": 5,
+    "type": "short_answer",
+    "enunciado": "Explica brevemente la diferencia entre una lista y una tupla en Python.",
+    "puntos": 10
+  },
+  {
+    "id": 6,
+    "type": "coding",
+    "enunciado": "Escribe una función llamada `sumar_pares` que reciba una lista de números y retorne la suma de todos los números pares.",
+    "puntos": 15,
+    "starterCode": "def sumar_pares(numeros):\n    # Escribe tu código aquí\n    pass"
+  },
+  {
+    "id": 7,
+    "type": "coding",
+    "enunciado": "Escribe una función llamada `sumar_pares` que reciba una lista de números y retorne la suma de todos los números pares.",
+    "puntos": 15,
+    "starterCode": ""
+  },
+  {
+    "id": 8,
+    "type": "coding",
+    "enunciado": "Escribe una función llamada `sumar_pares` que reciba una lista de números y retorne la suma de todos los números pares.",
+    "puntos": 15,
+    "starterCode": ""
+  }
+]
