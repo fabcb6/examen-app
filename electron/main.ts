@@ -47,9 +47,10 @@ ipcMain.handle('run-python', async (event, code: string) => {
       fs.writeFileSync(tempFile, code, 'utf8');
 
       // Intentamos usar 'python' primero (Windows), luego 'python3' (Mac/Linux)
-      const pythonCmd = process.platform === 'win32' ? 'python' : 'python3';
+      const pythonCmd = process.platform === 'win32' ? 'py' : 'python3';
+      const pythonArgs = process.platform === 'win32' ? ['-3', tempFile] : [tempFile];
 
-      const pythonProcess = spawn(pythonCmd, [tempFile], {
+      const pythonProcess = spawn(pythonCmd, pythonArgs, {
         cwd: tempDir,
         env: process.env,
       });

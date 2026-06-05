@@ -2,76 +2,299 @@
   {
     "id": 1,
     "type": "multiple_choice",
-    "enunciado": "¿Cuál es la salida del siguiente código?\nprint(2 + 3 * 4)",
-    "puntos": 5,
+    "enunciado": "Una clase en Python se puede entender como:",
+    "puntos": 2,
     "opciones": [
-      "20",
-      "14",
-      "24",
-      "Error"
+      "Un valor numérico.",
+      "Un molde o plantilla para crear objetos.",
+      "Una lista ordenada.",
+      "Una condición."
     ],
     "respuestaCorrecta": null
-  },  {
+  },
+  {
     "id": 2,
     "type": "multiple_choice",
-    "enunciado": "¿Cuál es 33)",
-    "puntos": 5,
+    "enunciado": "Un objeto es:",
+    "puntos": 2,
     "opciones": [
-      "1",
-      "2",
-      "3",
-      "33"
+      "Una función matemática.",
+      "Algo creado a partir de una clase.",
+      "Un ciclo repetitivo.",
+      "Una variable global."
     ],
     "respuestaCorrecta": null
-  },  {
+  },
+  {
     "id": 3,
     "type": "multiple_choice",
-    "enunciado": "¿Cuál es e",
-    "puntos": 5,
+    "enunciado": "En una clase, los atributos representan:",
+    "puntos": 2,
     "opciones": [
-      "q",
-      "w",
-      "e",
-      "r"
+      "Las acciones del objeto.",
+      "Las características del objeto.",
+      "Los errores del programa.",
+      "Las condiciones del código."
     ],
     "respuestaCorrecta": null
-  },  {
+  },
+  {
     "id": 4,
     "type": "multiple_choice",
-    "enunciado": "¿Cuál es 12",
-    "puntos": 5,
+    "enunciado": "En Python, el método __init__ se utiliza para:",
+    "puntos": 2,
     "opciones": [
-      "12",
-      "12",
-      "1"
+      "Eliminar objetos.",
+      "Inicializar los datos del objeto.",
+      "Ordenar una lista.",
+      "Imprimir siempre un resultado."
     ],
     "respuestaCorrecta": null
   },
   {
     "id": 5,
-    "type": "short_answer",
-    "enunciado": "Explica brevemente la diferencia entre una lista y una tupla en Python.",
-    "puntos": 10
+    "type": "multiple_choice",
+    "enunciado": "En un árbol binario ordenado, si un valor es menor que el nodo actual, se coloca:",
+    "puntos": 2,
+    "opciones": [
+      "A la derecha.",
+      "A la izquierda.",
+      "Siempre en la raíz.",
+      "En cualquier posición."
+    ],
+    "respuestaCorrecta": null
   },
   {
     "id": 6,
-    "type": "coding",
-    "enunciado": "Escribe una función llamada `sumar_pares` que reciba una lista de números y retorne la suma de todos los números pares.",
-    "puntos": 15,
-    "starterCode": "def sumar_pares(numeros):\n    # Escribe tu código aquí\n    pass"
+    "type": "multiple_choice",
+    "enunciado": "En un árbol binario, una hoja es:",
+    "puntos": 2,
+    "opciones": [
+      "El primer nodo del árbol.",
+      "Un nodo sin hijos.",
+      "Un nodo con dos hijos.",
+      "Un nodo repetido."
+    ],
+    "respuestaCorrecta": null
   },
   {
     "id": 7,
-    "type": "coding",
-    "enunciado": "Escribe una función llamada `sumar_pares` que reciba una lista de números y retorne la suma de todos los números pares.",
-    "puntos": 15,
-    "starterCode": ""
+    "type": "multiple_choice",
+    "enunciado": "El recorrido que muestra los datos ordenados de menor a mayor en un árbol binario ordenado es:",
+    "puntos": 2,
+    "opciones": [
+      "Preorden.",
+      "Postorden.",
+      "Inorden.",
+      "Aleatorio."
+    ],
+    "respuestaCorrecta": null
   },
   {
     "id": 8,
+    "type": "multiple_choice",
+    "enunciado": "En la búsqueda dentro de un árbol binario ordenado, si el valor buscado es mayor que el nodo actual, se debe avanzar hacia:",
+    "puntos": 2,
+    "opciones": [
+      "La izquierda.",
+      "La derecha.",
+      "La raíz.",
+      "El nodo anterior."
+    ],
+    "respuestaCorrecta": null
+  },
+  {
+    "id": 9,
+    "type": "multiple_choice",
+    "enunciado": "Al eliminar un nodo hoja:",
+    "puntos": 2,
+    "opciones": [
+      "Se elimina directamente.",
+      "Siempre debe subir otro nodo.",
+      "Se debe borrar toda la raíz.",
+      "Se debe cambiar todo el árbol."
+    ],
+    "respuestaCorrecta": null
+  },
+  {
+    "id": 10,
+    "type": "multiple_choice",
+    "enunciado": "El balanceo de árboles busca principalmente:",
+    "puntos": 2,
+    "opciones": [
+      "Que el árbol tenga solo una hoja.",
+      "Evitar árboles muy inclinados.",
+      "Eliminar todos los nodos.",
+      "Convertir el árbol en una lista."
+    ],
+    "respuestaCorrecta": null
+  },
+  {
+    "id": 11,
+    "type": "multiple_choice",
+    "enunciado": "Se insertan los valores:\n\n45, 25, 65, 15, 35, 55, 75, 10, 20\n\n¿Cuáles son las hojas del árbol?",
+    "puntos": 2,
+    "opciones": [
+      "10, 20, 35, 55, 75",
+      "45, 25, 65",
+      "15, 35, 55, 75",
+      "10, 15, 20, 25"
+    ],
+    "respuestaCorrecta": null
+  },
+  {
+    "id": 12,
+    "type": "multiple_choice",
+    "enunciado": "En un árbol binario de búsqueda se insertan:\n\n40, 20, 60, 10, 30, 50, 70\n\nSi se elimina el nodo 20, ¿qué caso de borrado se presenta?",
+    "puntos": 2,
+    "opciones": [
+      "Nodo hoja.",
+      "Nodo con un hijo.",
+      "Nodo con dos hijos.",
+      "No se puede eliminar."
+    ],
+    "respuestaCorrecta": null
+  },
+  {
+    "id": 13,
+    "type": "multiple_choice",
+    "enunciado": "Se insertan los valores:\n\n50, 30, 70, 20, 40, 60, 80\n\n¿Cuál sería el recorrido postorden?",
+    "puntos": 2,
+    "opciones": [
+      "50 30 20 40 70 60 80",
+      "20 30 40 50 60 70 80",
+      "20 40 30 60 80 70 50",
+      "80 70 60 50 40 30 20"
+    ],
+    "respuestaCorrecta": null
+  },
+  {
+    "id": 14,
+    "type": "multiple_choice",
+    "enunciado": "Un árbol binario ordenado tiene los siguientes valores insertados:\n\n40, 20, 60, 10, 30, 50, 70\n\nSu recorrido inorden es:\n\n10, 20, 30, 40, 50, 60, 70\n\nSi se busca el valor 50, ¿cuál es la ruta correcta de comparación?",
+    "puntos": 2,
+    "opciones": [
+      "40 → 20 → 30",
+      "40 → 60 → 50",
+      "40 → 60 → 70",
+      "10 → 20 → 30 → 40 → 50"
+    ],
+    "respuestaCorrecta": null
+  },
+  {
+    "id": 15,
+    "type": "multiple_choice",
+    "enunciado": "En un árbol binario de búsqueda, se elimina un nodo con dos hijos. ¿Cuál opción mantiene correctamente la regla del árbol?",
+    "puntos": 2,
+    "opciones": [
+      "Reemplazarlo por el menor valor del subárbol derecho.",
+      "Reemplazarlo por cualquier nodo hoja.",
+      "Eliminar también todos sus hijos.",
+      "Colocar todos los valores a la izquierda."
+    ],
+    "respuestaCorrecta": null
+  },
+  {
+    "id": 16,
     "type": "coding",
-    "enunciado": "Escribe una función llamada `sumar_pares` que reciba una lista de números y retorne la suma de todos los números pares.",
-    "puntos": 15,
-    "starterCode": ""
+    "enunciado": "¿Cómo se define una clase Nodo en Python para representar un nodo de un árbol binario?",
+    "puntos": 2
+  },
+  {
+    "id": 17,
+    "type": "short_answer",
+    "enunciado": "Un árbol tiene una altura de 3 niveles en el subárbol izquierdo y 1 nivel en el subárbol derecho.\n\na. ¿Cuál es el factor de balance del árbol?\nb. ¿Se considera un árbol balanceado? ¿Por qué?",
+    "puntos": 2
+  },
+  {
+    "id": 18,
+    "type": "short_answer",
+    "enunciado": "¿Qué representa el valor None en los atributos izquierda y derecha de un nodo?",
+    "puntos": 2
+  },
+  {
+    "id": 19,
+    "type": "short_answer",
+    "enunciado": "¿Por qué el recorrido inorden muestra los valores ordenados en un árbol binario de búsqueda?",
+    "puntos": 2
+  },
+  {
+    "id": 20,
+    "type": "short_answer",
+    "enunciado": "Mencione los tres casos que pueden presentarse al eliminar un nodo de un árbol binario de búsqueda.",
+    "puntos": 2
+  },
+  {
+    "id": 21,
+    "type": "coding",
+    "enunciado": "Indicaciones generales para los ejercicios de programación:\n- El código debe estar escrito en Python.\n- El código debe poder ejecutarse correctamente.\n- Si el código no corre por errores de sintaxis o estructura, se bajarán puntos según la rúbrica.\n- Las variables creadas por el estudiante deben iniciar con el prefijo formado por: primera letra del nombre + primera letra del primer apellido + primera letra del segundo apellido + guion bajo (_).\nEjemplo: si el estudiante se llama Fabián Campos Benavides, una variable válida sería fcb_nombre.\nImportante: el incumplimiento del formato de nombres de variables solicitado tendrá una penalización de 1 punto por ejercicio de desarrollo.\n\nPenalización por ejecución:\n- El programa ejecuta correctamente: sin penalización.\n- Presenta errores menores que requieren cambios mínimos para ejecutarse: -2 puntos.\n- Presenta errores de sintaxis o lógica que impiden su ejecución completa: -5 puntos.\n\nDesarrolle un programa en Python utilizando programación orientada a objetos. Cree una clase llamada Producto que cumpla con los siguientes requisitos:\n\n- Debe tener los atributos nombre, precio y cantidad.\n- Debe tener un método para mostrar la información del producto.\n- Debe tener un método para calcular el total a pagar: precio × cantidad.\n- Debe crear un objeto e imprimir la información y el total calculado.\n\nRúbrica:\n- Define correctamente la clase Producto: 3 pts.\n- Implementa correctamente el constructor __init__: 4 pts.\n- Define los atributos nombre, precio y cantidad: 3 pts.\n- Crea un método para mostrar la información: 3 pts.\n- Crea un método para calcular el total: 3 pts.\n- Crea un objeto y llama correctamente los métodos: 2 pts.\n- Usa correctamente el prefijo solicitado en las variables: 1 pt.\n- El código corre sin errores: 1 pt.",
+    "puntos": 20
+  },
+  {
+    "id": 22,
+    "type": "coding",
+    "enunciado": "Indicaciones generales para los ejercicios de programación:\n- El código debe estar escrito en Python.\n- El código debe poder ejecutarse correctamente.\n- Si el código no corre por errores de sintaxis o estructura, se bajarán puntos según la rúbrica.\n- Las variables creadas por el estudiante deben iniciar con el prefijo formado por: primera letra del nombre + primera letra del primer apellido + primera letra del segundo apellido + guion bajo (_).\nEjemplo: si el estudiante se llama Fabián Campos Benavides, una variable válida sería fcb_nombre.\nImportante: el incumplimiento del formato de nombres de variables solicitado tendrá una penalización de 1 punto por ejercicio de desarrollo.\n\nPenalización por ejecución:\n- El programa ejecuta correctamente: sin penalización.\n- Presenta errores menores que requieren cambios mínimos para ejecutarse: -2 puntos.\n- Presenta errores de sintaxis o lógica que impiden su ejecución completa: -5 puntos.\n\nDesarrolle un programa en Python que:\n\n- Cree la clase Nodo.\n- Permita insertar los siguientes valores en un árbol binario ordenado:\n\n72, 50, 90, 30, 60, 85, 95, 55, 65\n\n- Muestre el recorrido inorden.\n- Muestre el recorrido preorden.\n- Muestre el recorrido postorden.\n\nRúbrica:\n- Define correctamente la clase Nodo: 3 pts.\n- Usa correctamente los atributos valor, izquierda y derecha: 3 pts.\n- Implementa correctamente la función de inserción: 5 pts.\n- Inserta todos los valores dados en el orden indicado: 2 pts.\n- Implementa correctamente el recorrido inorden: 2 pts.\n- Implementa correctamente el recorrido preorden: 2 pts.\n- Implementa correctamente el recorrido postorden: 2 pts.\n- Usa correctamente el prefijo solicitado en las variables: 1 pt.",
+    "puntos": 20
+  },
+  {
+    "id": 23,
+    "type": "coding",
+    "enunciado": "Indicaciones generales para los ejercicios de programación:\n- El código debe estar escrito en Python.\n- El código debe poder ejecutarse correctamente.\n- Si el código no corre por errores de sintaxis o estructura, se bajarán puntos según la rúbrica.\n- Las variables creadas por el estudiante deben iniciar con el prefijo formado por: primera letra del nombre + primera letra del primer apellido + primera letra del segundo apellido + guion bajo (_).\nEjemplo: si el estudiante se llama Fabián Campos Benavides, una variable válida sería fcb_nombre.\nImportante: el incumplimiento del formato de nombres de variables solicitado tendrá una penalización de 1 punto por ejercicio de desarrollo.\n\nPenalización por ejecución:\n- El programa ejecuta correctamente: sin penalización.\n- Presenta errores menores que requieren cambios mínimos para ejecutarse: -2 puntos.\n- Presenta errores de sintaxis o lógica que impiden su ejecución completa: -5 puntos.\n\nUtilizando el árbol creado en el ejercicio anterior, desarrolle lo siguiente:\n\na. Implemente una función llamada buscar() que permita determinar si un valor existe dentro del árbol.\nb. Utilice la función para buscar los valores 85 y 100. La salida debe indicar si el valor fue encontrado o no.\nEjemplo:\nBuscar 85: True\nBuscar 100: False\n\nc. Implemente una función llamada buscar_mayor() que retorne el valor más grande almacenado en el árbol.\nd. Muestre el resultado obtenido al llamar la función.\nEjemplo:\nValor mayor del árbol: 95\n\nRúbrica:\n- Implementa correctamente la función buscar(): 6 pts.\n- La función buscar() retorna True o False correctamente: 3 pts.\n- Busca correctamente los valores 85 y 100: 2 pts.\n- Implementa correctamente la función buscar_mayor(): 5 pts.\n- Muestra correctamente el mayor valor del árbol: 2 pts.\n- Usa correctamente el prefijo solicitado en las variables: 1 pt.\n- El código corre sin errores: 1 pt.",
+    "puntos": 20
+  },
+  {
+    "id": 24,
+    "type": "multiple_choice",
+    "enunciado": "(Opcional) En Edge Computing, acercar el procesamiento al lugar donde se generan los datos puede reducir la latencia, pero no elimina todos los retos, porque aumenta la complejidad de seguridad, mantenimiento y gestión distribuida.",
+    "puntos": 1,
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "respuestaCorrecta": null
+  },
+  {
+    "id": 25,
+    "type": "multiple_choice",
+    "enunciado": "(Opcional) En los motores gráficos, herramientas como Unity, Unreal Engine y Godot sustituyen completamente la programación, ya que permiten crear videojuegos sin definir reglas, eventos o interacciones mediante código.",
+    "puntos": 1,
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "respuestaCorrecta": null
+  },
+  {
+    "id": 26,
+    "type": "multiple_choice",
+    "enunciado": "(Opcional) En privacidad de datos, usar una única contraseña fuerte para todas las cuentas es una práctica recomendable, porque facilita el control del acceso y reduce la posibilidad de olvidar credenciales.",
+    "puntos": 1,
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "respuestaCorrecta": null
+  },
+  {
+    "id": 27,
+    "type": "multiple_choice",
+    "enunciado": "(Opcional) En computación cuántica, la superposición permite que un qubit represente múltiples estados antes de ser medido, pero la medición produce un resultado clásico.",
+    "puntos": 1,
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "respuestaCorrecta": null
+  },
+  {
+    "id": 28,
+    "type": "multiple_choice",
+    "enunciado": "(Opcional) La automatización de procesos con software elimina la necesidad de supervisión humana, ya que los bots, scripts o sistemas RPA garantizan que no se propaguen errores en procesos repetitivos.",
+    "puntos": 1,
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "respuestaCorrecta": null
   }
 ]
