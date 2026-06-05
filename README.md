@@ -16,7 +16,7 @@ Aplicación de escritorio para aplicar exámenes de programación a estudiantes.
 
 - [ ] Mejorar el editor de código (Monaco Editor)
 - [ ] Persistencia de respuestas
-- [ ] Empaquetado para Windows
+- [ ] Empaquetado para Windows (ya genera versión Portable sin instalación + instalador)
 - [ ] Exportar también a PDF (opcional, ya existe export a TXT completo)
 
 ## Estructura
