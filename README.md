@@ -14,11 +14,10 @@ Aplicación de escritorio para aplicar exámenes de programación a estudiantes.
 
 ## Próximos pasos importantes
 
-- [ ] Implementar ejecución real de código Python (local)
 - [ ] Mejorar el editor de código (Monaco Editor)
-- [ ] Agregar generación de PDF
 - [ ] Persistencia de respuestas
 - [ ] Empaquetado para Windows
+- [ ] Exportar también a PDF (opcional, ya existe export a TXT completo)
 
 ## Estructura
 

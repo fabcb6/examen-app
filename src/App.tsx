@@ -4,7 +4,7 @@ import questionsData from '../resources/questions.json'
 import { MultipleChoiceQuestion } from './components/MultipleChoiceQuestion'
 import { ShortAnswerQuestion } from './components/ShortAnswerQuestion'
 import { CodingQuestionComponent as CodingQuestion } from './components/CodingQuestion'
-import { generateExamPdf } from './utils/generatePdf'
+import { generateExamTxt } from './utils/generateTxt'
 
 type Answers = Record<number, string | number>
 
@@ -228,9 +228,9 @@ function App() {
       </div>
 
       <div style={{ marginTop: '40px', textAlign: 'center' }}>
-        <button 
-          style={{ 
-            padding: '14px 32px', 
+        <button
+          style={{
+            padding: '14px 36px',
             fontSize: '16px',
             backgroundColor: '#28a745',
             color: 'white',
@@ -240,15 +240,16 @@ function App() {
           }}
           onClick={() => {
             if (student) {
-              generateExamPdf({
+              generateExamTxt({
                 student,
                 questions,
                 answers,
+                outputs,
               });
             }
           }}
         >
-          Exportar examen a PDF
+          Exportar examen a TXT
         </button>
       </div>
     </div>

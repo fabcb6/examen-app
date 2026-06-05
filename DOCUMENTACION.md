@@ -4,7 +4,7 @@
 
 **Examen App** es una aplicación de escritorio multiplataforma diseñada para aplicar exámenes de programación de forma controlada. 
 
-La aplicación permite a los estudiantes resolver preguntas de programación directamente en la plataforma, ejecutar su código de forma local y exportar sus respuestas en formato PDF al finalizar.
+La aplicación permite a los estudiantes resolver preguntas de programación directamente en la plataforma, ejecutar su código de forma local y exportar sus respuestas completas a un archivo de texto (.txt) al finalizar (ideal para preservar código largo sin cortes).
 
 **Objetivo principal:** Facilitar la evaluación de habilidades de programación en entornos educativos (colegios, universidades o cursos), manteniendo el control sobre las preguntas y permitiendo la ejecución segura del código del estudiante.
 
@@ -15,8 +15,8 @@ La aplicación permite a los estudiantes resolver preguntas de programación dir
 - **Electron** → Para crear la aplicación de escritorio.
 - **React + TypeScript + Vite** → Interfaz de usuario moderna y tipada.
 - **Monaco Editor** → Editor de código profesional (el mismo que usa Visual Studio Code).
-- **Python** → Ejecución local del código de los estudiantes y generación de PDFs.
-- **jsPDF** → Generación de documentos PDF desde el frontend.
+- **Python** → Ejecución local del código de los estudiantes.
+- **Exportación a TXT** → Generación de archivos de texto plano (.txt) con todas las respuestas (incluyendo código completo).
 - **GitHub Actions** → Compilación automática del instalador para Windows.
 
 ---
@@ -34,7 +34,7 @@ La aplicación permite a los estudiantes resolver preguntas de programación dir
 - **Editor de código** con Monaco Editor (con resaltado de sintaxis).
 - **Ejecución de código Python** de forma local (usando Python instalado en la máquina del estudiante).
 - **Captura de salida** (prints y mensajes de error).
-- **Exportación a PDF** con todas las preguntas y respuestas del estudiante.
+- **Exportación a TXT** con todas las preguntas y respuestas del estudiante (código completo preservado, sin cortes).
 - **Interfaz con pestañas**: Problema, Editor de Código, Ejecución y Retroalimentación.
 - **Autocompletado desactivado** en el editor (ideal para exámenes).
 - **Compilación automática para Windows** mediante GitHub Actions.
@@ -45,7 +45,7 @@ La aplicación permite a los estudiantes resolver preguntas de programación dir
 - Retroalimentación automática avanzada.
 - Manejo de múltiples exámenes o niveles.
 - Control de tiempo (temporizador del examen).
-- Firma digital o verificación de integridad del PDF.
+- Firma digital o verificación de integridad de las exportaciones.
 - Mejoras de accesibilidad y diseño visual.
 - Soporte para más lenguajes de programación (actualmente solo Python).
 
@@ -61,7 +61,7 @@ examen-app/
 ├── src/
 │   ├── components/            # Componentes de React
 │   ├── types/                 # Tipos de TypeScript
-│   ├── utils/                 # Funciones utilitarias (ej: generatePdf)
+│   ├── utils/                 # Funciones utilitarias (ej: generateTxt)
 │   └── App.tsx                # Componente principal
 ├── resources/
 │   └── questions.json         # Archivo de preguntas (se incluye en el instalador)
@@ -163,14 +163,14 @@ En futuras versiones se puede mejorar este flujo.
 - La aplicación ejecuta el código Python del estudiante **localmente** usando el Python instalado en su computadora.
 - Actualmente solo soporta **Python**.
 - El editor de código tiene el autocompletado desactivado por completo (ideal para exámenes).
-- El PDF se genera del lado del cliente usando la librería `jsPDF`.
+- La exportación se genera del lado del cliente como archivo de texto plano (.txt) para garantizar que el código de las respuestas de desarrollo no se corte.
 
 ---
 
 ## 10. Próximos Pasos Recomendados
 
 1. **Probar la ejecución real de código** en Windows.
-2. Mejorar la generación del PDF (incluir más información, diseño más profesional).
+2. Agregar opción de exportación a PDF (actualmente se usa exportación a TXT porque preserva el código completo sin problemas de paginación).
 3. Agregar persistencia de respuestas (guardar progreso).
 4. Mejorar la experiencia visual de la aplicación.
 5. Agregar más tipos de preguntas o retroalimentación automática.
@@ -186,4 +186,4 @@ Se recomienda mantener actualizada esta documentación a medida que el proyecto 
 
 ---
 
-**Fecha de última actualización:** Mayo 2026
+**Fecha de última actualización:** Junio 2026 (se removió exportación a PDF y se usa exclusivamente exportación a TXT para evitar cortes en respuestas de código)
